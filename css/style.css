@@ -1,0 +1,55 @@
+.dots, body {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+body {
+  background-color: black;
+  color: red;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 1366px) {
+  body {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  body {
+    font-size: 30px;
+  }
+}
+
+.card .item {
+  background-color: red;
+}
+.card__item {
+  background-color: green;
+}
+
+.dots {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.dots__item {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(214, 205, 205);
+  border-radius: 50px;
+}
+.dots__item--active {
+  background-color: blue;
+}
+.dots__item.active {
+  background-color: green;
+}
