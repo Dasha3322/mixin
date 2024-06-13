@@ -42,13 +42,10 @@ body{
 .card{
     .item{
         background-color: red;
-    }
-    &{
-        // использование его позволяет не прописывать родителя - .card
-    }
     &__item{
-        background-color: green;
+        background-color: green; // использование его позволяет не прописывать родителя - .card
     }
+}
 }
 .dots {
     @extend %fontStyle;

@@ -28,7 +28,7 @@ body {
 .card .item {
   background-color: red;
 }
-.card__item {
+.card .item__item {
   background-color: green;
 }
 
